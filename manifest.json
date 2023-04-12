@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Mi Bloc de Notas",
+  "version": "1.0",
+  "description": "Una extensión de Chrome que funciona como un bloc de notas.",
+  "permissions": [
+    "storage",
+    "downloads"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon/icon16.png",
+      "48": "icon/icon48.png",
+      "128": "icon/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon/icon16.png",
+    "48": "icon/icon48.png",
+    "128": "icon/icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "version_name": "1.0"
+}
+
+

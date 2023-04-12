@@ -1,0 +1,20 @@
+body {
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+    /* background-color: #FFE082; */
+  }
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  /* .titulo{
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    background-color: #007BFF;
+    color: white;
+  } */
